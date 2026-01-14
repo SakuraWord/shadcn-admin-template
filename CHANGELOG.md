@@ -99,7 +99,7 @@
 
 ### Refactor
 
-- update font config guide in fonts.ts (#164)
+- update font config guide in fonts/index.ts (#164)
 
 ## v1.4.0 (2025-05-25)
 
