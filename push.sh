@@ -1,4 +1,6 @@
 #!/bin/bash
 
-git push origin $1
-git push gitee $1
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+# echo $BRANCH
+git push origin $BRANCH
+git push gitee $BRANCH
